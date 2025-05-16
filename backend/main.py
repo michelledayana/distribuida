@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hola desde FastAPI en Railway"}
+    return {"message": "Hola Mundo"}
 
 # Configuración para Railway
 if __name__ == "__main__":
