@@ -3,7 +3,7 @@ name: Deploy to Railway
 on:
   push:
     branches:
-      - main  # o la rama que desees desplegar
+      - main  # o la rama que deseas desplegar
 
 jobs:
   deploy:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Node.js (si usas Node.js)
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
